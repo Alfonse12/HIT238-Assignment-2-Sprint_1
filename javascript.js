@@ -31,6 +31,7 @@ function personalize(){
 	var balise = document.getElementsByTagName("body");
 	balise[0].style["background"] = colour;
 	setTimeout("personalize()",20);
+	personalize.spectrum.load = false;
 }
 
 //Hide the introduction div and call the previous function to be executed
@@ -55,7 +56,7 @@ function menu(action){
 //Displays an alert with the copyrights of the App
 function about(){
 	alert("Still developing the App ");
-	alert("Thank you for being patient");
+	alert("This will be the help menu in the future");
 }
 //This function is the first which runs after having choosed a game. It determines the number of questions, the countdown, the level name, and the criteria of adding or removing score after a success or a fail
 function initializer(level){
