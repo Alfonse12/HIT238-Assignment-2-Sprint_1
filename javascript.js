@@ -10,7 +10,7 @@ var usedIndex=new Array(),
 	
 
 
-//Modifies the state of the display property
+//Modifies the state of the display property when playing 
 function modifyStyle(idNode,propertyName, propertyValue) {
 	var balise = document.getElementById(idNode);
 	balise.style[propertyName] = propertyValue;
