@@ -8,14 +8,7 @@ var usedIndex=new Array(),
 	fontStyle = "normal",fillType = "colorFill",textFillColor2 = "#000000",pattern = new Image(),message,
 	theCanvas,context;
 	
-	
-	
-	
-	
-//Just to show that you're in the App	
-function welcome(){
-	alert("Welcome !");
-}
+
 
 //Modifies the state of the display property
 function modifyStyle(idNode,propertyName, propertyValue) {
